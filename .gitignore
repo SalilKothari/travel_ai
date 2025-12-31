@@ -5,3 +5,7 @@ __pycache__/
 *.pyd
 *.sqlite3
 .env
+
+
+/travel-ai/backend/data/*.csv
+/travel-ai/backend/features/*.csv

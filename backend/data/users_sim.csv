@@ -1,0 +1,601 @@
+user_id,age,home_country,budget_level,attr_culture,attr_adventure,attr_nature,attr_beaches,attr_nightlife,attr_cuisine,attr_wellness,ctx_urban,ctx_seclusion
+1,37,Malaysia,Mid-range,2,3,3,1,2,4,1,2,4
+2,59,Ukraine,Budget,3,4,3,1,2,5,4,4,3
+3,31,Uganda,Mid-range,3,4,2,1,3,2,2,2,2
+4,29,Burundi,Mid-range,1,3,3,2,3,3,3,2,1
+5,21,Hungary,Luxury,3,3,2,2,3,4,1,3,2
+6,24,Luxembourg,Mid-range,2,4,3,4,4,4,3,3,2
+7,53,Slovakia,Mid-range,3,1,3,2,3,2,3,2,3
+8,24,Latvia,Budget,3,3,3,1,4,3,2,5,4
+9,67,Cuba,Mid-range,3,3,3,4,1,4,3,4,2
+10,68,Togo,Luxury,3,2,2,2,2,4,1,3,5
+11,41,Jordan,Luxury,3,3,3,1,3,2,2,4,2
+12,55,Russia,Budget,4,2,3,5,1,3,2,3,3
+13,26,Jordan,Mid-range,4,3,4,1,2,3,2,3,3
+14,41,Comoros,Mid-range,4,3,5,2,2,3,3,3,3
+15,34,Guatemala,Mid-range,3,3,4,2,2,3,2,3,2
+16,57,Iran,Mid-range,4,2,5,1,4,3,2,4,3
+17,43,São Tomé and Príncipe,Budget,3,4,5,3,3,3,3,1,2
+18,32,Malawi,Budget,3,4,4,2,4,3,2,3,2
+19,69,São Tomé and Príncipe,Mid-range,3,1,3,2,2,3,2,1,4
+20,44,Palau,Mid-range,3,3,3,1,2,3,2,1,2
+21,31,American Samoa,Luxury,4,2,4,1,4,4,3,3,4
+22,46,Vietnam,Mid-range,2,4,4,4,2,4,2,5,1
+23,59,Lithuania,Mid-range,4,2,4,2,3,3,2,3,3
+24,59,Kenya,Budget,4,2,4,2,3,3,3,2,3
+25,42,Tanzania,Budget,3,3,3,2,2,4,2,4,3
+26,51,Spain,Mid-range,4,3,4,2,3,3,2,5,3
+27,25,Rwanda,Mid-range,3,3,2,1,2,3,2,4,2
+28,60,Maldives,Mid-range,4,3,4,2,1,4,3,4,3
+29,43,Lithuania,Mid-range,3,3,4,3,3,5,3,2,4
+30,29,Ghana,Mid-range,5,3,2,1,2,4,2,2,3
+31,62,United Arab Emirates,Budget,2,4,3,1,2,3,2,5,2
+32,38,Palau,Mid-range,3,3,3,1,2,1,1,3,2
+33,25,Egypt,Luxury,4,3,2,4,1,4,2,2,3
+34,56,Tonga,Mid-range,4,2,4,4,2,2,2,2,2
+35,27,Puerto Rico,Budget,3,4,2,1,2,4,2,3,2
+36,68,American Samoa,Mid-range,3,4,2,2,3,2,2,4,3
+37,50,Bermuda,Budget,4,2,3,1,4,4,1,4,1
+38,49,Norway,Luxury,4,3,3,1,2,3,3,2,3
+39,32,Hungary,Mid-range,5,2,3,1,3,4,2,2,3
+40,55,South Africa,Budget,4,3,4,1,3,3,3,1,3
+41,33,Guatemala,Mid-range,4,2,4,2,2,4,2,2,3
+42,32,Gambia,Budget,3,3,4,2,2,3,3,3,1
+43,19,Estonia,Mid-range,3,2,2,1,2,3,3,4,3
+44,47,Bhutan,Budget,4,3,5,1,2,4,2,4,3
+45,56,Latvia,Mid-range,4,2,4,2,3,4,3,4,4
+46,40,Singapore,Mid-range,4,4,3,1,5,3,3,3,4
+47,63,Tuvalu,Budget,4,2,2,2,2,3,3,4,1
+48,29,Morocco,Mid-range,4,3,2,5,3,3,2,1,3
+49,54,Bangladesh,Mid-range,3,2,5,1,1,3,3,3,3
+50,19,Mozambique,Budget,4,3,4,4,3,4,3,3,1
+51,46,Bulgaria,Mid-range,3,4,3,1,3,4,1,4,1
+52,65,Ivory Coast,Budget,4,2,2,1,3,4,2,1,4
+53,18,Turkmenistan,Mid-range,4,3,4,2,2,3,2,3,4
+54,65,Thailand,Luxury,4,3,4,2,2,4,3,4,3
+55,33,Malawi,Mid-range,3,3,5,2,2,2,3,3,2
+56,50,Romania,Mid-range,4,3,4,5,3,3,4,3,3
+57,22,Cuba,Mid-range,3,2,3,3,4,4,3,4,4
+58,19,Tunisia,Luxury,4,2,3,2,3,4,2,1,3
+59,53,Vietnam,Mid-range,3,3,3,1,2,3,2,2,3
+60,55,Tonga,Mid-range,3,3,3,3,5,4,3,1,4
+61,23,Bolivia,Budget,5,2,3,4,2,3,2,2,2
+62,65,Ghana,Mid-range,4,2,1,3,3,3,3,3,1
+63,61,Costa Rica,Budget,4,4,5,4,1,2,3,2,3
+64,64,Sweden,Budget,3,5,4,4,2,4,3,4,4
+65,69,Turkmenistan,Mid-range,3,3,3,5,4,2,2,2,3
+66,43,Botswana,Mid-range,4,5,4,2,3,3,1,4,4
+67,29,El Salvador,Mid-range,3,2,3,3,2,3,3,2,3
+68,54,Jamaica,Mid-range,4,4,4,3,2,4,3,3,4
+69,31,Guatemala,Mid-range,3,2,2,2,2,3,2,1,2
+70,44,Bulgaria,Mid-range,3,3,3,1,2,4,2,4,3
+71,57,Burundi,Mid-range,3,4,4,4,2,3,3,3,1
+72,44,Canada,Mid-range,3,4,3,3,2,2,3,3,2
+73,64,Greenland,Mid-range,2,3,5,2,3,3,2,1,2
+74,69,Portugal,Budget,4,2,4,1,2,3,3,1,3
+75,35,Finland,Mid-range,3,4,5,3,3,5,2,1,3
+76,31,Lithuania,Budget,4,1,3,2,2,2,2,4,3
+77,48,Saint Kitts and Nevis,Luxury,2,1,3,3,2,3,2,2,4
+78,44,Ukraine,Mid-range,4,2,3,5,3,4,2,3,2
+79,59,Dominica,Mid-range,4,2,4,1,2,2,3,3,2
+80,27,Cameroon,Budget,4,2,5,1,3,4,2,3,5
+81,57,San Marino,Mid-range,3,2,3,3,2,4,3,2,3
+82,23,Saint Kitts and Nevis,Mid-range,3,2,3,1,3,3,2,2,1
+83,46,Kyrgyzstan,Budget,3,2,4,3,2,3,3,3,1
+84,48,El Salvador,Mid-range,4,2,2,1,3,2,3,2,4
+85,36,Bolivia,Budget,5,3,1,4,3,4,3,3,3
+86,51,Germany,Mid-range,4,2,4,4,2,4,2,4,1
+87,55,Costa Rica,Budget,3,4,2,2,3,3,3,2,3
+88,45,Canada,Mid-range,2,4,3,2,2,4,2,4,2
+89,52,Vanuatu,Luxury,3,4,4,1,3,3,3,4,3
+90,39,Latvia,Mid-range,3,3,1,1,2,4,3,2,4
+91,21,Qatar,Mid-range,2,2,4,3,2,4,3,2,2
+92,55,Laos,Mid-range,3,2,3,2,4,3,2,2,2
+93,67,Jamaica,Budget,3,3,3,1,1,3,3,2,2
+94,60,Canada,Luxury,3,3,2,1,3,4,2,3,1
+95,68,Indonesia,Mid-range,3,1,2,2,1,3,2,4,1
+96,37,Switzerland,Mid-range,2,4,2,3,1,3,3,3,2
+97,26,Burundi,Budget,2,3,2,1,4,3,3,4,2
+98,44,Hong Kong,Mid-range,3,3,3,1,3,3,2,3,4
+99,21,France,Mid-range,4,3,3,2,4,4,3,2,2
+100,34,Tunisia,Mid-range,4,3,4,1,2,3,2,1,3
+101,61,Australia,Mid-range,3,3,2,2,3,4,4,1,3
+102,34,Switzerland,Mid-range,3,4,3,2,2,4,3,3,3
+103,50,Ireland,Mid-range,3,2,3,1,3,4,2,1,3
+104,52,Grenada,Mid-range,4,4,3,1,3,4,3,3,4
+105,46,Madagascar,Budget,2,2,3,3,3,4,1,3,1
+106,41,Turkey,Luxury,3,4,4,3,2,4,2,3,3
+107,64,South Africa,Mid-range,3,1,3,1,3,3,3,4,2
+108,58,Monaco,Mid-range,2,2,3,4,2,4,2,3,4
+109,33,Mozambique,Mid-range,3,2,4,4,2,3,2,1,3
+110,21,Turks and Caicos,Mid-range,3,2,3,2,3,1,3,3,4
+111,39,Slovenia,Luxury,4,1,5,5,3,4,2,2,4
+112,19,Gambia,Mid-range,4,3,3,3,2,3,3,2,3
+113,63,Bahrain,Mid-range,2,3,4,1,2,2,2,3,2
+114,66,Cape Verde,Mid-range,3,2,2,1,3,4,3,2,1
+115,60,Slovenia,Mid-range,4,3,3,1,4,4,2,3,2
+116,26,Zambia,Mid-range,4,3,4,1,3,3,2,2,3
+117,58,Saint Lucia,Mid-range,4,4,3,3,2,5,3,2,2
+118,64,Tuvalu,Mid-range,5,3,4,2,3,2,2,2,2
+119,65,Samoa,Budget,4,2,4,1,2,4,3,2,2
+120,40,Gabon,Mid-range,4,3,4,1,3,4,2,1,1
+121,44,Ecuador,Mid-range,5,3,4,2,1,3,3,2,3
+122,61,Maldives,Mid-range,4,3,4,2,3,3,2,2,3
+123,61,Kenya,Budget,3,3,4,2,4,4,3,2,2
+124,64,Venezuela,Mid-range,3,2,1,2,1,3,3,3,1
+125,38,Myanmar,Mid-range,4,4,2,1,5,4,3,2,2
+126,56,Bahrain,Luxury,3,3,2,1,3,5,3,4,3
+127,56,Thailand,Mid-range,3,3,4,2,2,3,3,2,3
+128,61,Oman,Mid-range,4,4,2,2,3,2,2,2,4
+129,51,Myanmar,Mid-range,2,3,3,1,3,3,2,3,2
+130,63,Ecuador,Budget,3,2,3,2,1,3,3,2,3
+131,67,Burundi,Mid-range,4,4,5,1,2,4,3,2,2
+132,38,Ecuador,Luxury,4,2,4,1,3,4,3,4,4
+133,50,U.S. Virgin Islands,Budget,4,1,3,3,3,4,3,4,2
+134,49,Bosnia and Herzegovina,Mid-range,4,2,5,1,3,3,3,2,3
+135,63,United Arab Emirates,Mid-range,5,4,4,2,3,3,4,2,2
+136,22,Brazil,Budget,4,3,3,2,2,3,3,2,3
+137,33,Barbados,Budget,3,1,3,3,3,3,2,3,2
+138,41,Maldives,Mid-range,5,1,4,3,3,3,3,3,2
+139,61,Quebec,Mid-range,4,4,4,4,3,4,3,3,4
+140,61,Saint Kitts and Nevis,Mid-range,3,4,3,4,3,3,2,5,2
+141,57,Réunion,Mid-range,1,3,4,1,3,3,3,1,3
+142,29,China,Mid-range,4,3,4,1,2,4,3,2,1
+143,64,Belize,Mid-range,3,2,3,4,4,4,2,4,2
+144,44,Lithuania,Mid-range,2,2,3,1,1,4,3,1,4
+145,40,Equatorial Guinea,Budget,3,2,4,4,3,4,2,3,3
+146,31,Jamaica,Mid-range,2,3,2,2,1,3,3,2,3
+147,67,Madagascar,Mid-range,4,3,2,4,2,4,4,2,2
+148,63,Cambodia,Mid-range,3,3,4,1,2,2,3,4,4
+149,58,Trinidad and Tobago,Budget,3,2,3,3,1,4,3,2,4
+150,28,Dominican Republic,Budget,3,3,3,2,3,2,3,3,2
+151,65,Quebec,Luxury,4,3,3,1,4,3,2,4,4
+152,37,Philippines,Mid-range,3,2,2,2,2,4,2,3,3
+153,36,Slovakia,Mid-range,3,3,3,3,2,3,1,2,3
+154,67,Bulgaria,Mid-range,2,4,4,1,2,3,3,1,5
+155,41,Kosovo,Budget,4,2,2,3,3,4,3,4,3
+156,46,Uzbekistan,Budget,3,3,3,3,4,2,3,4,3
+157,56,Singapore,Budget,4,4,4,4,3,3,3,5,1
+158,55,Morocco,Budget,2,2,4,1,1,4,2,4,4
+159,46,San Marino,Mid-range,3,2,3,4,3,3,3,3,1
+160,53,Philippines,Mid-range,3,2,4,1,3,4,3,3,3
+161,25,Romania,Luxury,2,3,3,1,3,4,2,4,3
+162,33,São Tomé and Príncipe,Mid-range,4,2,2,4,2,2,1,3,4
+163,67,Poland,Mid-range,4,2,3,2,3,4,2,2,1
+164,20,Pakistan,Mid-range,3,3,3,1,1,4,3,3,3
+165,25,Bermuda,Budget,3,3,4,1,2,4,2,1,1
+166,50,Dominica,Budget,3,2,2,3,4,3,2,2,3
+167,30,Cyprus,Mid-range,3,2,3,3,2,3,2,3,3
+168,18,Russia,Budget,3,2,3,3,3,4,3,3,2
+169,32,Luxembourg,Mid-range,3,3,3,3,3,4,4,2,2
+170,27,Vietnam,Budget,3,3,2,2,2,3,2,1,1
+171,24,Greenland,Mid-range,1,2,4,5,4,4,3,3,3
+172,57,Gabon,Mid-range,3,2,3,2,4,3,3,3,1
+173,68,Slovenia,Luxury,3,3,2,2,2,3,3,3,3
+174,53,Kazakhstan,Mid-range,5,2,5,3,2,3,2,1,1
+175,26,Oman,Budget,4,3,3,2,3,4,2,3,3
+176,61,Vanuatu,Mid-range,4,1,4,1,3,3,3,5,2
+177,56,Croatia,Mid-range,2,3,3,1,4,3,3,4,5
+178,60,Ivory Coast,Luxury,4,2,2,1,3,3,3,3,3
+179,36,Comoros,Luxury,3,3,3,2,4,2,1,4,2
+180,59,Ukraine,Mid-range,4,2,4,4,2,4,2,4,3
+181,52,Paraguay,Mid-range,4,2,2,4,3,4,3,3,3
+182,53,United Kingdom,Mid-range,3,3,2,3,2,2,3,1,4
+183,56,Peru,Budget,3,2,3,1,2,4,2,3,4
+184,26,Portugal,Budget,4,3,4,2,3,3,2,5,3
+185,24,Botswana,Mid-range,3,3,4,4,2,3,2,3,2
+186,67,South Korea,Mid-range,4,2,3,1,3,5,3,2,2
+187,54,New Caledonia,Mid-range,2,2,4,2,2,2,3,3,3
+188,49,Réunion,Budget,3,3,5,3,3,3,2,3,3
+189,54,Greece,Budget,3,3,3,3,1,4,2,4,3
+190,64,Czech Republic,Mid-range,3,3,3,3,2,4,3,3,1
+191,45,Venezuela,Mid-range,3,2,4,2,2,3,3,4,3
+192,36,Netherlands,Mid-range,3,3,3,1,2,4,3,3,1
+193,23,Georgia,Mid-range,3,1,4,3,3,4,3,3,3
+194,43,Belgium,Budget,3,3,3,1,2,3,2,1,3
+195,59,China,Budget,3,3,2,1,4,4,2,4,2
+196,25,Cyprus,Mid-range,3,2,3,1,3,4,3,3,1
+197,59,Spain,Budget,4,2,3,3,3,4,3,3,3
+198,28,San Marino,Mid-range,3,3,4,1,2,3,4,3,2
+199,61,Oman,Mid-range,3,3,4,1,3,4,3,2,4
+200,66,Qatar,Budget,3,2,3,3,4,4,3,2,5
+201,31,Bulgaria,Luxury,5,4,4,1,3,3,3,2,2
+202,54,Gabon,Mid-range,3,3,2,2,2,4,3,4,2
+203,26,San Marino,Mid-range,3,3,3,1,2,3,3,3,2
+204,57,Benin,Budget,3,2,4,1,2,3,2,2,3
+205,42,Kosovo,Mid-range,3,3,3,1,4,3,2,3,3
+206,36,Belarus,Mid-range,4,3,4,2,3,4,2,2,4
+207,27,Portugal,Mid-range,3,2,1,1,3,2,2,1,2
+208,34,Nicaragua,Mid-range,3,2,4,2,1,3,3,5,2
+209,69,El Salvador,Mid-range,4,3,1,1,2,3,3,4,2
+210,60,Grenada,Mid-range,4,3,3,3,1,4,3,3,1
+211,49,Romania,Mid-range,4,3,4,1,3,2,3,3,1
+212,45,Finland,Budget,4,2,3,3,1,2,3,1,3
+213,51,Indonesia,Mid-range,3,2,3,1,2,3,2,3,1
+214,52,Solomon Islands,Luxury,3,4,3,2,1,4,2,3,1
+215,39,Peru,Mid-range,3,4,2,3,2,3,3,2,1
+216,45,Cameroon,Mid-range,4,2,4,3,2,4,2,2,2
+217,60,Chile,Mid-range,4,2,3,2,2,3,4,2,3
+218,62,Serbia,Mid-range,3,2,4,2,3,4,3,2,3
+219,56,Latvia,Mid-range,1,2,2,4,2,3,3,2,1
+220,61,Madagascar,Mid-range,3,3,3,3,2,4,2,1,2
+221,48,Puerto Rico,Budget,5,3,3,3,2,3,2,2,3
+222,34,Kuwait,Mid-range,3,2,3,3,2,4,4,1,4
+223,32,Oman,Mid-range,3,2,4,1,2,3,4,3,3
+224,63,U.S. Virgin Islands,Budget,3,4,3,2,3,4,3,4,4
+225,57,Bahrain,Luxury,3,3,4,4,2,2,2,4,2
+226,40,Equatorial Guinea,Mid-range,3,3,4,2,3,3,2,3,2
+227,55,Seychelles,Mid-range,4,2,3,1,2,3,3,2,3
+228,57,Cape Verde,Mid-range,4,3,3,1,2,3,3,3,2
+229,52,Iran,Mid-range,4,3,3,1,2,4,2,4,1
+230,60,Poland,Mid-range,4,2,3,4,2,3,2,4,3
+231,19,Mexico,Luxury,4,3,3,4,2,3,3,3,1
+232,65,Argentina,Budget,3,4,3,1,3,3,2,1,3
+233,62,Kenya,Mid-range,4,2,3,3,2,3,3,3,4
+234,28,Vietnam,Mid-range,4,3,2,2,2,3,2,2,2
+235,51,San Marino,Mid-range,5,2,3,3,2,4,3,3,3
+236,43,Vanuatu,Mid-range,3,3,4,2,3,4,4,5,3
+237,30,Bangladesh,Budget,2,2,5,1,3,3,3,1,3
+238,55,Belize,Budget,3,3,4,4,3,4,3,2,1
+239,32,Réunion,Luxury,4,3,3,3,3,3,2,3,4
+240,61,Mexico,Mid-range,3,5,4,2,2,4,2,3,2
+241,69,Uganda,Budget,3,3,4,2,3,3,2,2,4
+242,64,Singapore,Mid-range,4,2,3,5,2,4,2,4,3
+243,46,Costa Rica,Mid-range,3,3,3,2,3,3,3,1,1
+244,56,Eswatini,Mid-range,4,2,4,2,3,5,2,3,3
+245,41,French Polynesia,Budget,2,2,3,3,3,4,3,1,2
+246,51,Kyrgyzstan,Mid-range,3,2,2,2,3,1,2,2,2
+247,55,Mozambique,Mid-range,4,2,2,2,3,3,4,2,2
+248,41,Taiwan,Mid-range,5,2,4,3,3,4,3,2,4
+249,56,Poland,Luxury,3,2,3,2,2,3,3,5,3
+250,35,Singapore,Budget,4,2,4,1,4,4,3,3,3
+251,57,Nepal,Luxury,4,4,3,1,3,3,2,2,4
+252,54,Switzerland,Mid-range,4,3,3,1,3,4,2,2,5
+253,67,Hungary,Mid-range,4,1,2,2,3,4,2,2,1
+254,37,Jordan,Budget,3,3,4,2,1,2,3,4,2
+255,66,Monaco,Mid-range,2,1,3,2,2,4,3,4,2
+256,35,Réunion,Mid-range,4,2,2,1,5,2,2,5,3
+257,26,Qatar,Mid-range,3,2,2,4,1,2,1,4,1
+258,44,Angola,Mid-range,5,4,2,4,2,2,2,3,4
+259,39,France,Budget,5,3,3,3,2,5,2,2,3
+260,57,Ecuador,Mid-range,4,3,4,3,2,4,2,3,3
+261,58,Solomon Islands,Mid-range,3,1,3,2,1,4,3,2,3
+262,29,Burundi,Mid-range,4,4,2,2,3,3,3,5,5
+263,62,Lithuania,Mid-range,4,3,3,1,4,4,2,3,3
+264,40,Puerto Rico,Mid-range,2,3,4,1,4,3,1,4,1
+265,52,Palau,Budget,3,3,4,5,2,3,2,2,4
+266,61,Ecuador,Mid-range,3,2,2,4,2,3,1,2,4
+267,25,Singapore,Mid-range,4,1,3,1,4,4,2,4,3
+268,30,Morocco,Budget,5,4,4,1,4,2,2,3,4
+269,54,Finland,Mid-range,3,3,5,3,2,3,2,4,1
+270,64,Costa Rica,Budget,4,4,3,1,2,4,3,2,2
+271,39,Tajikistan,Mid-range,3,2,4,3,3,2,2,3,2
+272,43,Gabon,Mid-range,3,2,3,1,2,4,3,3,1
+273,48,Sweden,Budget,3,3,3,1,3,2,3,1,4
+274,68,China,Mid-range,4,1,2,2,3,3,3,3,1
+275,50,Quebec,Budget,3,2,3,3,3,3,2,4,2
+276,52,Germany,Mid-range,3,1,3,3,3,4,2,3,1
+277,19,Georgia,Luxury,3,3,3,1,3,4,3,2,2
+278,67,Sweden,Mid-range,5,2,3,2,2,3,3,1,2
+279,41,Kazakhstan,Luxury,4,4,4,2,2,3,2,3,2
+280,61,United Arab Emirates,Budget,4,2,2,3,4,3,4,4,1
+281,59,Ecuador,Mid-range,4,5,4,3,2,3,4,2,2
+282,39,Réunion,Mid-range,3,3,4,2,3,4,3,2,2
+283,36,Cuba,Mid-range,3,2,3,3,3,2,3,2,2
+284,34,Palau,Luxury,4,2,5,5,4,3,2,1,3
+285,62,Italy,Luxury,3,2,2,1,4,2,3,2,5
+286,44,Papua New Guinea,Mid-range,4,3,4,3,3,2,3,2,3
+287,39,Chile,Mid-range,4,4,2,2,4,5,3,4,1
+288,63,New Caledonia,Mid-range,4,2,4,3,1,3,3,1,2
+289,62,Republic of the Congo,Luxury,3,2,2,1,2,4,3,2,3
+290,23,Germany,Mid-range,5,3,4,1,2,3,2,5,3
+291,32,New Caledonia,Luxury,3,3,2,2,3,3,3,2,2
+292,49,Tanzania,Mid-range,3,3,3,1,2,3,2,2,3
+293,67,Qatar,Mid-range,3,3,3,1,3,4,3,4,1
+294,68,Vanuatu,Luxury,4,4,3,3,1,2,3,1,1
+295,62,Dominican Republic,Luxury,4,2,3,3,2,4,2,3,3
+296,48,Fiji,Mid-range,3,3,2,3,3,2,2,3,1
+297,55,Bosnia and Herzegovina,Mid-range,4,2,3,1,3,4,3,3,4
+298,41,Samoa,Mid-range,3,3,4,2,3,3,2,3,1
+299,18,Turkey,Mid-range,4,2,3,1,2,2,2,2,3
+300,56,Suriname,Mid-range,3,2,3,1,5,3,3,2,5
+301,48,Sierra Leone,Mid-range,3,3,3,4,2,3,3,4,3
+302,29,Poland,Mid-range,3,3,4,3,3,3,4,3,3
+303,55,Burundi,Mid-range,2,2,1,2,2,5,3,4,4
+304,19,Belize,Budget,4,3,4,3,1,3,4,2,2
+305,50,Portugal,Budget,4,3,3,1,4,3,3,4,2
+306,20,Laos,Budget,3,3,1,1,2,3,3,2,3
+307,43,Cuba,Mid-range,4,2,3,4,1,4,2,3,2
+308,38,Palau,Mid-range,4,2,3,2,3,4,2,2,2
+309,28,Belgium,Mid-range,3,2,5,2,3,3,3,3,4
+310,49,United Kingdom,Mid-range,3,2,3,2,3,3,3,4,3
+311,42,Eswatini,Mid-range,3,4,3,1,2,2,3,4,3
+312,58,Lesotho,Budget,2,4,2,2,1,3,2,2,4
+313,52,Slovenia,Mid-range,4,2,4,1,2,4,2,2,3
+314,58,Namibia,Budget,2,2,3,2,2,3,1,3,5
+315,62,Zambia,Mid-range,5,2,2,2,2,3,3,1,1
+316,48,Greenland,Budget,2,3,3,1,4,3,2,4,4
+317,56,Grenada,Budget,5,2,3,2,3,3,2,2,2
+318,55,Zimbabwe,Mid-range,3,3,4,2,3,3,3,2,2
+319,48,Venezuela,Luxury,3,3,3,1,2,5,3,3,4
+320,18,Uzbekistan,Budget,4,3,4,1,2,3,2,2,2
+321,22,Switzerland,Luxury,3,4,5,4,2,4,2,3,3
+322,23,Kuwait,Mid-range,4,2,3,5,2,5,3,3,2
+323,41,Romania,Luxury,3,3,3,2,1,4,3,3,3
+324,69,Argentina,Mid-range,2,2,4,3,3,4,4,3,3
+325,30,Chile,Mid-range,3,4,3,4,3,3,3,3,3
+326,44,Luxembourg,Luxury,2,2,2,3,2,5,2,3,2
+327,47,Réunion,Mid-range,4,4,3,1,2,4,3,3,2
+328,56,Slovakia,Luxury,4,1,2,2,2,2,2,2,3
+329,23,Botswana,Mid-range,4,2,3,1,1,3,3,4,2
+330,21,San Marino,Luxury,3,3,3,2,3,3,1,2,2
+331,43,Belgium,Mid-range,3,2,4,1,2,4,3,2,2
+332,68,Quebec,Mid-range,3,2,4,1,2,3,3,5,2
+333,42,Colombia,Mid-range,3,4,4,4,3,4,3,2,2
+334,52,Bhutan,Budget,3,3,3,3,3,3,3,4,3
+335,47,Tanzania,Mid-range,3,2,4,2,4,3,2,3,4
+336,26,Portugal,Mid-range,4,4,2,2,3,3,2,4,4
+337,54,Brazil,Budget,4,2,3,4,2,4,3,5,4
+338,21,Puerto Rico,Mid-range,2,2,2,1,3,2,3,3,1
+339,37,Cameroon,Luxury,3,1,4,1,4,3,2,4,2
+340,38,Philippines,Luxury,4,2,4,4,3,3,1,4,3
+341,44,Serbia,Luxury,3,3,3,1,2,3,3,4,3
+342,23,Turkey,Mid-range,3,4,2,2,2,3,2,2,3
+343,68,Gabon,Budget,4,2,3,3,2,3,3,3,1
+344,68,Uzbekistan,Luxury,3,2,3,1,3,3,3,3,2
+345,33,Malawi,Mid-range,3,1,4,1,3,4,2,3,2
+346,54,Cuba,Luxury,3,3,2,3,1,2,2,2,2
+347,50,Saint Kitts and Nevis,Mid-range,4,1,3,3,3,3,3,2,3
+348,62,Czech Republic,Budget,2,2,4,3,3,3,2,1,2
+349,55,Bulgaria,Mid-range,1,2,3,2,2,5,4,1,2
+350,49,Bahrain,Mid-range,4,2,5,2,4,3,3,2,3
+351,37,Germany,Budget,3,3,4,1,1,4,4,4,4
+352,18,Austria,Mid-range,3,3,4,5,3,4,2,3,2
+353,67,China,Budget,4,3,4,5,2,4,3,2,3
+354,42,Latvia,Budget,3,3,3,1,2,3,3,4,4
+355,38,Japan,Mid-range,4,2,3,1,3,2,2,3,3
+356,20,Togo,Budget,3,3,3,1,3,3,3,4,3
+357,28,Bulgaria,Budget,2,4,3,4,1,3,3,3,3
+358,43,Georgia,Budget,3,2,5,1,3,4,3,3,4
+359,47,Bulgaria,Mid-range,5,2,3,3,3,4,3,3,2
+360,63,Qatar,Mid-range,5,2,4,4,1,4,2,3,2
+361,27,Suriname,Budget,4,2,1,1,2,3,2,1,3
+362,39,Mauritius,Budget,4,3,3,3,2,2,2,3,3
+363,54,Malta,Mid-range,3,3,4,3,2,3,3,3,4
+364,38,Eswatini,Mid-range,2,3,2,1,2,3,2,2,3
+365,20,Luxembourg,Budget,3,3,4,2,1,3,3,2,3
+366,63,Austria,Budget,3,2,3,2,1,2,2,1,3
+367,37,Qatar,Mid-range,5,2,2,2,3,2,2,4,4
+368,41,Turkmenistan,Budget,4,3,2,2,1,3,1,1,2
+369,47,Malawi,Mid-range,3,3,2,3,3,4,4,3,2
+370,54,Russia,Mid-range,3,3,2,3,2,3,2,3,3
+371,34,Denmark,Budget,5,3,2,2,3,4,2,4,3
+372,43,Oman,Budget,4,1,2,3,5,3,2,3,1
+373,41,Barbados,Budget,4,3,3,2,3,4,2,3,3
+374,45,Kuwait,Luxury,4,3,2,1,3,3,4,2,1
+375,19,Singapore,Mid-range,3,3,4,1,2,2,4,2,2
+376,34,Turkmenistan,Mid-range,5,2,2,2,4,4,3,3,2
+377,37,Cape Verde,Mid-range,2,2,4,1,3,4,3,4,4
+378,65,Tanzania,Luxury,2,3,5,1,4,3,2,2,1
+379,43,Uganda,Budget,3,2,4,1,4,3,3,5,3
+380,32,Lesotho,Luxury,4,4,3,2,2,3,3,3,1
+381,44,Canada,Mid-range,5,2,4,1,2,4,3,5,4
+382,43,China,Budget,1,3,4,2,3,3,2,3,4
+383,21,Mexico,Mid-range,5,3,2,3,4,3,2,3,1
+384,20,Botswana,Luxury,3,3,4,1,2,3,3,3,1
+385,50,Quebec,Mid-range,2,1,4,1,5,4,3,2,2
+386,58,Myanmar,Budget,2,2,4,2,2,3,2,1,3
+387,25,Bosnia and Herzegovina,Mid-range,4,3,4,3,4,2,2,3,1
+388,40,Bolivia,Mid-range,2,2,3,3,3,4,2,3,3
+389,34,Gabon,Budget,2,2,2,2,2,4,3,2,2
+390,35,Colombia,Mid-range,4,4,5,2,1,3,2,4,3
+391,57,South Africa,Mid-range,3,3,5,2,3,2,2,4,3
+392,55,Ukraine,Budget,3,3,3,2,2,3,3,3,2
+393,48,Palau,Mid-range,4,4,1,4,4,3,2,3,4
+394,42,Burundi,Mid-range,3,4,4,3,2,3,2,4,2
+395,41,South Korea,Mid-range,4,3,4,2,1,4,3,2,2
+396,30,Japan,Luxury,5,2,3,1,1,2,4,2,1
+397,23,Turks and Caicos,Mid-range,3,3,3,1,4,4,3,4,2
+398,49,Mozambique,Mid-range,4,4,2,1,2,4,2,4,3
+399,21,Albania,Budget,2,3,4,1,1,5,3,2,3
+400,31,Angola,Mid-range,4,4,3,2,2,4,2,3,3
+401,42,Argentina,Mid-range,4,3,3,1,1,3,2,1,4
+402,69,Poland,Budget,5,3,2,1,3,2,4,3,3
+403,45,Vanuatu,Budget,5,4,2,1,1,5,2,4,1
+404,29,Switzerland,Luxury,4,2,4,1,4,3,3,2,2
+405,35,Kosovo,Mid-range,4,5,2,1,3,3,2,2,3
+406,33,Iceland,Mid-range,3,2,4,1,3,5,3,3,2
+407,22,Sri Lanka,Budget,4,4,3,1,3,4,2,2,4
+408,65,Latvia,Mid-range,2,1,3,1,2,3,4,2,3
+409,51,Kosovo,Budget,4,4,3,1,2,2,3,2,3
+410,64,Egypt,Budget,2,1,3,4,3,4,3,2,3
+411,19,Latvia,Mid-range,2,3,1,1,3,4,2,3,3
+412,24,Paraguay,Luxury,4,3,3,3,4,3,1,3,3
+413,67,Réunion,Mid-range,4,2,3,2,2,3,2,3,3
+414,37,Bosnia and Herzegovina,Mid-range,4,2,4,4,3,3,3,3,3
+415,54,Canada,Budget,4,2,4,1,2,3,2,2,4
+416,30,Poland,Mid-range,2,4,5,2,3,3,2,2,5
+417,59,Ukraine,Budget,4,4,4,1,3,2,2,1,1
+418,18,Estonia,Luxury,4,3,3,3,4,4,2,1,3
+419,60,Peru,Mid-range,4,3,4,1,4,2,3,3,3
+420,60,Maldives,Mid-range,4,2,4,3,2,4,3,3,2
+421,62,Hungary,Budget,4,4,3,3,2,4,3,2,4
+422,23,Sierra Leone,Mid-range,3,3,3,2,2,3,3,1,2
+423,41,Belgium,Mid-range,4,3,3,1,3,4,3,1,2
+424,62,Croatia,Budget,3,2,3,2,3,3,3,2,1
+425,47,Georgia,Luxury,4,4,2,1,3,3,2,2,2
+426,32,Malawi,Mid-range,5,2,2,2,2,3,2,3,3
+427,31,Bhutan,Mid-range,4,2,4,1,3,3,2,3,2
+428,47,Poland,Budget,3,3,3,4,1,3,4,2,1
+429,68,Poland,Mid-range,3,3,3,3,4,4,2,1,2
+430,39,Germany,Budget,4,2,3,3,4,3,3,1,3
+431,31,Slovakia,Mid-range,3,2,5,1,2,2,3,2,3
+432,46,Venezuela,Mid-range,2,3,3,2,2,3,2,2,2
+433,67,Ukraine,Mid-range,3,3,4,3,4,4,3,4,2
+434,21,Cuba,Mid-range,2,3,3,1,2,3,3,2,5
+435,69,Lithuania,Budget,4,3,4,2,2,3,3,4,2
+436,56,Luxembourg,Luxury,4,3,5,1,3,4,2,2,4
+437,33,Tunisia,Mid-range,4,3,4,1,3,4,3,2,3
+438,53,Kosovo,Mid-range,2,4,3,1,2,4,3,3,3
+439,18,Switzerland,Mid-range,3,4,4,3,2,3,3,2,2
+440,54,Dominican Republic,Budget,4,3,5,2,3,3,3,3,4
+441,29,Denmark,Mid-range,2,3,3,1,3,4,3,1,4
+442,62,Senegal,Budget,4,2,3,1,4,4,3,4,3
+443,21,Philippines,Luxury,4,3,4,3,3,3,2,4,3
+444,36,American Samoa,Budget,4,3,4,2,2,3,3,4,3
+445,48,Angola,Mid-range,3,2,4,2,4,3,2,2,4
+446,19,Trinidad and Tobago,Mid-range,3,3,3,1,1,4,3,3,2
+447,22,Russia,Mid-range,3,1,4,4,1,3,2,2,2
+448,43,Myanmar,Budget,4,2,5,2,3,3,3,4,2
+449,40,Thailand,Mid-range,3,3,3,2,3,5,3,2,1
+450,57,Belarus,Budget,3,4,5,3,1,3,2,2,1
+451,30,Botswana,Mid-range,5,3,4,1,2,2,2,3,3
+452,18,Taiwan,Mid-range,2,3,2,2,1,3,3,2,3
+453,28,Malaysia,Mid-range,5,2,4,4,1,4,2,3,1
+454,20,Ireland,Mid-range,3,2,4,1,2,4,4,2,4
+455,51,Oman,Mid-range,4,3,5,3,3,3,2,2,3
+456,25,Oman,Luxury,2,2,4,1,1,3,3,2,3
+457,53,Colombia,Mid-range,4,3,3,2,1,3,3,2,2
+458,52,Iran,Luxury,4,3,3,2,2,4,2,3,3
+459,55,Hungary,Mid-range,3,2,2,2,4,4,3,4,3
+460,65,Guyana,Mid-range,4,2,3,2,3,3,2,3,5
+461,68,Tunisia,Mid-range,4,4,3,3,2,3,4,3,2
+462,57,Tuvalu,Mid-range,3,1,4,1,4,3,2,2,4
+463,62,Gambia,Mid-range,3,1,3,4,2,3,2,3,1
+464,25,Laos,Budget,3,3,3,2,2,3,2,3,1
+465,53,South Korea,Luxury,4,3,2,2,3,3,3,2,1
+466,68,Tunisia,Mid-range,4,1,3,1,4,3,2,2,1
+467,32,Sri Lanka,Mid-range,3,3,4,3,1,3,3,1,2
+468,36,Palau,Mid-range,3,2,4,2,2,3,2,2,4
+469,69,Moldova,Mid-range,3,2,4,1,1,3,3,4,4
+470,57,Lithuania,Budget,3,2,3,2,1,3,1,3,2
+471,23,Bahrain,Budget,3,2,1,4,3,3,4,3,3
+472,25,Monaco,Budget,4,1,4,1,2,4,3,2,2
+473,33,China,Budget,3,5,4,3,1,3,3,3,2
+474,31,Portugal,Mid-range,2,3,3,1,3,4,3,3,3
+475,25,Russia,Budget,3,4,3,4,2,3,3,3,2
+476,52,Canada,Budget,3,2,4,1,3,4,2,1,2
+477,32,Togo,Mid-range,3,3,3,1,2,4,3,2,4
+478,32,Ireland,Budget,3,3,4,1,2,5,3,2,3
+479,22,Cape Verde,Mid-range,4,1,3,1,3,4,3,2,1
+480,18,Tonga,Mid-range,2,2,2,3,2,4,1,2,4
+481,58,Denmark,Mid-range,4,4,3,1,3,3,2,2,4
+482,56,Mongolia,Mid-range,4,5,3,4,2,3,2,1,2
+483,44,Barbados,Luxury,3,4,2,3,2,4,2,2,3
+484,41,American Samoa,Mid-range,4,3,2,1,2,3,3,3,1
+485,69,Bangladesh,Mid-range,4,3,4,2,2,3,2,4,3
+486,60,Guyana,Luxury,4,2,3,2,4,3,2,2,3
+487,56,Peru,Mid-range,5,2,3,1,1,4,3,1,2
+488,48,Norway,Mid-range,4,3,3,3,3,3,3,3,1
+489,46,Namibia,Mid-range,3,3,3,3,3,4,2,2,3
+490,36,Ecuador,Mid-range,3,3,3,2,1,3,3,1,5
+491,38,Slovenia,Luxury,4,3,4,1,2,4,2,2,3
+492,38,Togo,Budget,2,2,4,2,3,3,3,2,3
+493,44,Tunisia,Mid-range,5,3,5,2,4,2,2,3,2
+494,64,Cyprus,Mid-range,5,2,4,1,1,4,2,2,2
+495,31,Tonga,Budget,3,4,2,3,2,3,2,2,5
+496,24,Poland,Mid-range,4,3,4,2,3,4,3,1,3
+497,57,Croatia,Luxury,3,4,5,2,3,5,3,1,4
+498,21,Uzbekistan,Budget,2,4,3,5,2,3,3,1,2
+499,46,Ecuador,Luxury,3,2,3,1,4,3,2,2,1
+500,60,Cuba,Mid-range,3,3,4,3,3,2,2,3,2
+501,41,Georgia,Luxury,3,2,5,4,3,3,3,4,3
+502,34,São Tomé and Príncipe,Luxury,2,3,3,1,3,4,3,4,1
+503,60,Laos,Budget,4,2,4,3,1,3,2,3,2
+504,36,Madagascar,Budget,4,4,4,5,2,3,3,3,2
+505,69,Tunisia,Budget,4,3,3,3,2,5,3,4,5
+506,46,Luxembourg,Luxury,3,3,3,3,1,4,2,2,2
+507,35,Ukraine,Mid-range,3,3,5,3,2,4,3,4,3
+508,48,Burundi,Mid-range,4,4,3,4,3,3,3,2,1
+509,30,Mexico,Mid-range,4,2,3,1,3,3,2,2,1
+510,29,Greece,Mid-range,3,3,3,4,3,2,2,3,2
+511,61,Papua New Guinea,Budget,3,4,5,1,2,4,3,2,1
+512,64,Germany,Budget,2,1,3,3,3,5,3,2,3
+513,27,Kuwait,Budget,3,2,3,1,3,4,2,2,3
+514,49,Egypt,Mid-range,3,3,2,2,2,3,3,4,3
+515,52,China,Budget,3,4,4,4,3,3,2,1,2
+516,58,Japan,Budget,3,2,3,1,3,4,2,2,2
+517,39,Trinidad and Tobago,Budget,4,2,2,2,3,4,3,3,3
+518,69,Paraguay,Mid-range,3,3,4,1,3,3,2,2,2
+519,58,Argentina,Mid-range,3,4,3,2,2,3,4,1,3
+520,54,Vanuatu,Mid-range,2,2,3,1,3,3,2,2,1
+521,21,Kosovo,Mid-range,3,3,3,1,2,3,3,2,1
+522,32,Croatia,Budget,4,1,3,2,1,4,2,2,3
+523,48,Cook Islands,Budget,3,2,3,3,3,2,2,2,4
+524,49,Bhutan,Budget,4,2,4,2,2,4,3,2,2
+525,29,Vanuatu,Mid-range,3,3,3,1,3,2,2,4,2
+526,60,Georgia,Mid-range,3,3,3,1,2,4,2,3,3
+527,58,French Polynesia,Budget,4,3,3,1,2,3,4,3,2
+528,50,Tonga,Mid-range,3,2,4,3,2,3,2,3,3
+529,33,Benin,Budget,3,2,3,1,4,4,3,3,3
+530,59,Guyana,Mid-range,3,2,4,2,3,3,2,2,3
+531,32,Belize,Mid-range,3,1,4,4,3,4,2,3,3
+532,51,Bosnia and Herzegovina,Budget,3,2,2,3,3,3,3,2,3
+533,24,Benin,Mid-range,3,1,3,1,3,3,3,3,1
+534,37,Peru,Mid-range,4,4,2,1,3,4,3,3,1
+535,45,Saint Kitts and Nevis,Budget,5,3,3,2,2,5,2,2,3
+536,33,Trinidad and Tobago,Mid-range,3,3,2,2,2,4,3,2,2
+537,38,Vietnam,Luxury,4,3,5,3,4,4,2,2,1
+538,58,Sierra Leone,Mid-range,3,3,4,1,3,4,2,2,3
+539,20,South Africa,Budget,4,2,2,1,3,4,3,1,3
+540,45,French Polynesia,Mid-range,4,3,4,4,3,3,2,1,4
+541,34,Singapore,Mid-range,4,3,5,2,2,3,2,1,2
+542,65,French Polynesia,Budget,2,2,1,3,3,4,3,3,1
+543,25,Finland,Mid-range,5,2,4,1,3,4,2,2,3
+544,36,Tajikistan,Mid-range,3,2,3,1,4,3,2,2,1
+545,63,New Caledonia,Mid-range,2,4,5,2,4,3,2,3,3
+546,64,Namibia,Mid-range,3,4,5,3,2,4,3,2,3
+547,59,Sierra Leone,Mid-range,3,3,4,3,3,3,2,5,4
+548,68,Trinidad and Tobago,Mid-range,3,3,4,1,3,4,2,4,2
+549,54,French Polynesia,Mid-range,4,3,2,1,2,2,1,3,2
+550,64,Portugal,Mid-range,3,3,4,2,1,3,2,2,1
+551,65,Switzerland,Budget,3,3,3,1,4,4,2,2,3
+552,57,Costa Rica,Mid-range,3,2,3,3,2,3,4,1,1
+553,46,Uganda,Budget,4,2,4,1,3,3,2,3,2
+554,38,China,Budget,3,3,4,2,3,3,3,2,3
+555,26,Lesotho,Budget,3,3,3,3,1,4,2,2,3
+556,30,Venezuela,Mid-range,3,3,3,2,2,3,3,4,5
+557,39,Cuba,Mid-range,4,2,3,3,2,3,2,1,1
+558,21,Kyrgyzstan,Mid-range,2,3,3,2,3,4,3,4,5
+559,43,Georgia,Budget,2,2,2,2,3,3,3,3,1
+560,39,Mongolia,Luxury,4,2,3,1,2,3,3,2,1
+561,30,French Guiana,Mid-range,3,5,2,2,1,2,2,4,4
+562,18,Montenegro,Mid-range,3,2,3,3,1,3,2,3,1
+563,69,Maldives,Mid-range,3,3,4,3,2,3,2,2,5
+564,61,Seychelles,Mid-range,4,3,1,1,4,4,2,4,2
+565,19,Romania,Luxury,4,3,4,2,1,3,2,3,3
+566,38,South Africa,Budget,3,2,2,1,4,4,2,2,2
+567,28,Jordan,Mid-range,2,3,3,1,2,3,3,3,3
+568,60,Ecuador,Mid-range,2,2,3,2,2,1,3,4,2
+569,56,Bhutan,Mid-range,3,2,5,3,1,4,3,3,3
+570,59,Equatorial Guinea,Budget,4,2,4,3,2,3,3,3,3
+571,18,Sierra Leone,Budget,2,3,2,5,2,3,3,2,3
+572,35,Paraguay,Budget,3,3,3,3,2,3,1,2,2
+573,23,São Tomé and Príncipe,Budget,4,2,4,3,3,4,3,1,2
+574,63,Bosnia and Herzegovina,Mid-range,4,2,3,4,3,3,3,3,3
+575,34,New Zealand,Mid-range,3,3,4,1,3,4,3,3,2
+576,63,Botswana,Luxury,5,3,2,3,1,4,2,4,3
+577,30,South Africa,Mid-range,3,3,2,1,3,3,2,4,3
+578,47,Republic of the Congo,Budget,3,3,2,2,2,4,2,3,2
+579,42,Ecuador,Mid-range,2,3,3,1,1,3,3,3,3
+580,32,Moldova,Luxury,3,2,2,1,2,5,2,2,3
+581,63,Paraguay,Mid-range,5,2,3,1,4,4,3,2,3
+582,64,Rwanda,Mid-range,4,3,4,1,3,4,4,3,2
+583,56,Finland,Budget,2,4,4,1,3,4,3,4,4
+584,38,Austria,Luxury,3,2,3,2,3,4,3,3,1
+585,60,Netherlands,Budget,3,3,3,3,1,3,3,3,3
+586,52,Moldova,Budget,3,2,3,1,2,3,2,2,2
+587,37,Comoros,Budget,4,2,5,1,4,3,4,4,2
+588,68,Azerbaijan,Mid-range,4,2,2,1,1,3,4,3,2
+589,69,Italy,Mid-range,3,3,4,2,1,3,3,2,2
+590,27,Uganda,Mid-range,3,3,2,2,2,3,3,2,1
+591,35,Bosnia and Herzegovina,Luxury,4,3,3,5,2,3,2,1,2
+592,41,Nepal,Budget,5,3,4,1,2,4,2,5,3
+593,36,Slovakia,Mid-range,3,2,4,2,2,3,3,5,2
+594,57,Mongolia,Luxury,2,3,4,1,4,3,3,3,2
+595,18,Slovenia,Budget,3,2,4,5,1,5,2,3,3
+596,61,Hong Kong,Mid-range,3,3,3,1,2,4,3,2,4
+597,34,Slovenia,Luxury,4,3,4,2,5,4,3,1,1
+598,65,Eswatini,Mid-range,3,4,3,3,4,4,2,4,3
+599,26,American Samoa,Mid-range,3,3,2,1,1,3,2,3,4
+600,32,Tajikistan,Mid-range,4,2,3,1,2,3,2,1,1
