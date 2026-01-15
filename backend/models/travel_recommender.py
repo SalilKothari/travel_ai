@@ -55,8 +55,10 @@ users = pd.read_csv("../data/users_sim.csv")
 destinations = pd.read_csv("../data/destinations_clean.csv")
 interactions = pd.read_csv("../data/interactions_sim.csv")
 
-# Create binary labels
+# Create binary label
 interactions["label"] = (interactions["action"] == "book").astype(int)
+
+
 interactions["timestamp"] = pd.to_datetime(interactions["time"])
 
 print(f"Users: {len(users)}, Destinations: {len(destinations)}, Interactions: {len(interactions)}")
@@ -314,7 +316,7 @@ class CandidateGenerator:
         dest_themes = self.dest_raw[DEST_THEMES].values
         
         # Compute dot product similarity (normalized by theme magnitudes)
-        scores = np.dot(dest_themes, user_themes)
+        scores = np.dot(dest_themes, user_themes).astype(np.float64)
         
         # Budget matching bonus (ordinal comparison)
         user_budget = user_dict.get('budget_level', 'Mid-range')
@@ -323,7 +325,7 @@ class CandidateGenerator:
         dest_budget_idx = self.dest_raw['budget_level'].apply(
             lambda x: BUDGET_ORDER.index(x) if x in BUDGET_ORDER else 1
         ).values
-        
+
         # Penalize large budget mismatches
         budget_penalty = np.abs(user_budget_idx - dest_budget_idx) * 0.5
         scores -= budget_penalty
@@ -336,7 +338,7 @@ class CandidateGenerator:
 
 candidate_gen = CandidateGenerator(users, destinations)
 
-# -------------------------
+
 # Dataset with pre-sampled negatives
 # -------------------------
 class RecomDataset(Dataset):
@@ -354,9 +356,9 @@ class RecomDataset(Dataset):
     def _presample_negatives(self) -> List[List[int]]:
         """Pre-sample negatives once for consistency"""
         negatives = []
-        for idx in range(len(self.pos)):
+        for idx in range(len(self.pos)): # iterate over every positive reaction
             row = self.pos.iloc[idx]
-            negs = np.random.choice(
+            negs = np.random.choice( # sample destinations that are not the positive destination 
                 self.all_dest[self.all_dest != row['dest_idx']],
                 size=self.num_neg,
                 replace=False
@@ -410,7 +412,7 @@ val_loader = DataLoader(
     collate_fn=collate_fn
 )
 
-# -------------------------
+
 # Improved Model with Dropout
 # -------------------------
 class HybridRecommender(nn.Module):
@@ -451,8 +453,7 @@ loss_fn = nn.BCEWithLogitsLoss()
 
 # Learning rate scheduler
 scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-    optimizer, mode='max', factor=0.5, patience=2, verbose=True
-)
+    optimizer, mode='max', factor=0.5, patience=2) # 0.5 - halving learning rate, patience - consectutive values with no improvement
 
 print(f"\nModel parameters: {sum(p.numel() for p in model.parameters()):,}")
 
